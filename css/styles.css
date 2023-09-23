@@ -11033,7 +11033,7 @@ section.resume-section .resume-section-content {
 }
 
 .testimonial-screenshot {
-    max-width: 100%; /* Adjust the value as needed to control the size */
+    max-width: 80%; /* Adjust the value as needed to control the size */
 }
 
 .testimonial-signature {
