@@ -11053,3 +11053,30 @@ section.resume-section .resume-section-content {
     color: #007bff; /* LinkedIn blue color */
     font-weight: bold;
 }
+
+/* CSS for Certification Cards */
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Adjust the gap between cards */
+}
+
+.certification-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.certification-card:hover {
+    transform: translateY(-2px);
+}
+
+.certification-card img {
+    width: 80px; /* Adjust the image size as needed */
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
