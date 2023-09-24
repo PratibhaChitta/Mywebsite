@@ -11079,7 +11079,6 @@ section.resume-section .resume-section-content {
     height: 100px;
     margin: 0 auto 10px;
 }
-
 /* CSS for Interests Section */
 .interests-container {
     display: flex;
@@ -11121,11 +11120,12 @@ section.resume-section .resume-section-content {
 }
 
 .flip-card-back {
-    height: 204px; /* Adjust the height as needed */
+    height: 200px; /* Adjust the height as needed */
     transform: rotateY(180deg);
     background-color: #007bff; /* Use your preferred color */
     color: #fff; /* Text color in blue fields */
 }
+
 <style>
 /* CSS to style certifications */
 .certification {
