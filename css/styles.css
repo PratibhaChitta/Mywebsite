@@ -11075,8 +11075,8 @@ section.resume-section .resume-section-content {
 }
 
 .certification-card img {
-    width: 80px; /* Adjust the image size as needed */
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto 10px;
 }
 
