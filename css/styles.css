@@ -11126,16 +11126,30 @@ section.resume-section .resume-section-content {
     background-color: #007bff; /* Use your preferred color */
     color: #fff; /* Text color in blue fields */
 }
-
 <style>
-/* CSS to adjust badge size */
-.badge-link {
-    display: inline-block;
-    margin: 10px; /* Adjust margin as needed */
+/* CSS to style certifications */
+.certification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing between certifications as needed */
 }
 
-.badge-image {
-    width: 60px; /* Adjust width as needed */
+.certification-details {
+    flex: 1;
+}
+
+.certification-title {
+    font-size: 18px; /* Adjust font size for certification titles */
+    font-weight: bold;
+    margin-bottom: 5px; /* Adjust spacing between title and description */
+}
+
+.certification-description {
+    font-size: 14px; /* Adjust font size for certification descriptions */
+}
+
+.certification-badge img {
+    width: 60px; /* Adjust badge or certificate size as needed */
     height: auto; /* Maintain aspect ratio */
 }
 </style>
