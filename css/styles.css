@@ -11101,10 +11101,6 @@ section.resume-section .resume-section-content {
     transform-style: preserve-3d;
 }
 
-.interest:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
 .flip-card-front,
 .flip-card-back {
     width: 100%;
@@ -11128,5 +11124,3 @@ section.resume-section .resume-section-content {
     background-color: #007bff; /* Use your preferred color */
     color: #fff;
 }
-
-
