@@ -11144,12 +11144,9 @@ section.resume-section .resume-section-content {
     margin-bottom: 5px; /* Adjust spacing between title and description */
 }
 
-.certification-description {
-    font-size: 14px; /* Adjust font size for certification descriptions */
-}
 
 .certification-badge img {
-    width: 60px; /* Adjust badge or certificate size as needed */
+    width: 80px; /* Adjust badge or certificate size as needed */
     height: auto; /* Maintain aspect ratio */
 }
 </style>
