@@ -411,13 +411,27 @@
 <section class="resume-section" id="certifications">
     <div class="resume-section-content">
         <h2 class="mb-5">Certifications</h2>
-        <div class="certification-badge">
-            <iframe src="https://www.credly.com/badges/197f57f5-9824-4a7d-8cb3-a50bc92598ea" frameborder="0" allowfullscreen></iframe>
-	            <iframe src="https://www.linkedin.com/learning/certificates/894c0395e6befadf890e0ee69dd86a61f8b5b3a26e2e436177e9addea9da8e89?trk=backfilled_certificate&accountId=43607124&u=43607124&success=true&authUUID=G1StYRwYTWa2RBJ%2FiAO6Ow%3D%3D" frameborder="0" allowfullscreen></iframe>
-
-        </div>
+        <div id="credly-badge-container"></div>
     </div>
 </section>
+
+<script>
+    // Function to load the Credly badge
+    function loadCredlyBadge() {
+        var credlyBadgeContainer = document.getElementById("credly-badge-container");
+        if (credlyBadgeContainer) {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.async = true;
+            script.src = "//cdn.credly.com/assets/utilities/embed.js";
+            credlyBadgeContainer.appendChild(script);
+        }
+    }
+
+    // Call the function to load the Credly badge
+    loadCredlyBadge();
+</script>
+
 
 	    
 	   <!-- <section class="resume-section" id="Testimonials">
