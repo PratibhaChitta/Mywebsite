@@ -11091,6 +11091,8 @@ section.resume-section .resume-section-content {
     margin: 10px;
     cursor: pointer;
     font-size: 16px;
+    width: calc(50% - 20px); /* Adjust card width for smaller screens */
+    max-width: 300px; /* Limit card width on smaller screens */
 }
 
 .flip-card {
@@ -11132,6 +11134,15 @@ section.resume-section .resume-section-content {
 .flip-card-back {
     transform: rotateY(180deg);
 }
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .interest {
+        width: 100%; /* Full width for smaller screens */
+        max-width: none;
+    }
+}
+
 
 <style>
 /* CSS to style certifications */
