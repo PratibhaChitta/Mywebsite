@@ -11137,11 +11137,16 @@ section.resume-section .resume-section-content {
 
 /* Media query for smaller screens (e.g., mobile devices) */
 @media (max-width: 768px) {
+    .interests-container {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+    
     .interest {
         width: 100%; /* Full width for smaller screens */
         max-width: none;
     }
 }
+
 
 
 <style>
